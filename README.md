@@ -18,9 +18,13 @@ ________________________________________________________________________________
 
 # ✨ Key Features
 ✅ Real-time sensor readings (updated every 2 seconds)
+
 ✅ Blynk Cloud Integration – View data remotely via virtual pins (V0-V3)
+
 ✅ Local LCD Display – Shows temperature, humidity, rain, and light status
+
 ✅ Wi-Fi Connectivity – Connects to a mobile hotspot for IoT functionality
+
 ✅ Error Handling – Checks for invalid sensor readings
 
 _______________________________________________________________________________________________________________________________________________________________
