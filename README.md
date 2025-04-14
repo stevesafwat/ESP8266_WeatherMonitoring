@@ -107,13 +107,14 @@ Provide 3.3V or 5V power to each sensor as needed
 Sensor Connections:
 
 DHT11 Sensor:
+-
 
 Data pin → ESP8266 D1 (GPIO5)
 
 VCC → 3.3V/5V
 
 GND → GND
---------------------------------
+
 Raindrop Sensor (Analog):
 
 Signal pin → ESP8266 A0
@@ -129,8 +130,9 @@ Signal pin → ESP8266 D2 (GPIO4)
 VCC → 3.3V/5V
 
 GND → GND
---------------------------------
+
 I2C LCD Display (16x2):
+-
 
 SDA → ESP8266 D5 (GPIO14)
 
@@ -139,8 +141,9 @@ SCL → ESP8266 D6 (GPIO12)
 VCC → 5V
 
 GND → GND
---------------------------------
+
 Important Notes:
+-
 
 The LCD uses I2C address 0x27 (as defined in code)
 
@@ -149,9 +152,9 @@ Raindrop sensor outputs analog values (0-1023) mapped to 0-100% in code
 LDR provides digital output (HIGH/LOW) based on light threshold
 
 All sensors share common ground with ESP8266
----------------------------------------------
 
-Troubleshooting Tips:
+Troubleshooting Tips
+-
 
 If LCD doesn't work, verify I2C address with a scanner
 
