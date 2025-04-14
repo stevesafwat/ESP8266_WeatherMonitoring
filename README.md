@@ -120,6 +120,7 @@ VCC → 3.3V/5V
 GND → GND
 
 Raindrop Sensor (Analog):
+-
 
 Signal pin → ESP8266 A0
 
@@ -128,6 +129,7 @@ VCC → 5V
 GND → GND
 
 LDR (Light Sensor):
+-
 
 Signal pin → ESP8266 D2 (GPIO4)
 
