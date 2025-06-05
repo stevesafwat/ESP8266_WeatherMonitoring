@@ -102,7 +102,7 @@ STEM/Educational projects (Arduino + ESP8266)
 _______________________________________________________________________________________________________________________________________________________________
 
 # Circuit Wiring Description
-Power Connections:
+Power Connections :
 
 Connect all components to a common ground (GND) on the ESP8266
 
